@@ -8,6 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         {this.props.store.name}
+        <button onClick={this.props.store.changeName}>이름바꾸기</button>
       </div>
     );
   }
