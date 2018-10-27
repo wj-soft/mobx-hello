@@ -9,6 +9,10 @@ class App extends Component {
       <div className="App">
         {this.props.store.name}
         <button onClick={this.props.store.changeName}>이름바꾸기</button>
+
+        <div>
+          x와 y의 합계 {this.props.store.sumXY}
+        </div>
       </div>
     );
   }
